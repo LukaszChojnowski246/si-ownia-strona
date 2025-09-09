@@ -10,7 +10,7 @@
         }
     </style>
 </head>
-<body style="background-color: rgb(10, 247, 21);">
+<body style="background-color: rgb(67, 182, 67);">
     
 <h6>siłownia lublin</h6>
  
@@ -42,7 +42,10 @@
 </ul>
 </ul>
 <h2>siłownia otwarta w godzinach Pn-Pi 9:00-19:00 Sob-Niedz 11:00-17:00</h2>
+<img src="sił2.jpg" alt="">
 
+<h3>Instrukcja</h3>
+<h4>po zakupie przyjdzie kod do aplikacji gdzie można zapisac się na trening <h2>UWAGA</h2> <h4>płatność tylko gotówką</h4></h4>
 <form action="plik.php" method="post">
 <h2>wypełnij formularz aby zakupić</h2>
 
@@ -52,18 +55,18 @@
 </label>
 
 <label for="Nazwisko">
-    <p><h3>nazwisko</h3></p>
+    <p><h3>Nazwisko</h3></p>
     <input type="text" name="nazwisko" id="nazwisko">
 
 </label>
 
 <label for="email">
-<p><h3>email</h3></p>
+<p><h3>Email</h3></p>
 <input type="email" name="email" id="email">
 </label>
 
 <label for="nrtel">
-<p><h3>numer telefonu</h3></p>
+<p><h3>Numer telefonu</h3></p>
 <input type="number" name="nrtel" id="nrtel">
 </label>
 
@@ -84,7 +87,7 @@
 </label>
 
 <label for="dodatkoweOS">
-<p><h3>z kimś czy sam?</h3></p>
+<p><h3>Z kimś czy sam?</h3></p>
 <select name="dodatkoweOS" id="dodatkoweOS">
     <option value="nie">Sam</option>
     <option value="tak">Tak 1os</option>
@@ -93,7 +96,31 @@
 
 </label>
 
-<button>Wyślij Formularz</button>
+<label for="imieinazwiskanakarcie">
+<p><h3>imie i nazwisko na karcie</h4></p>
+<input type="number" name="karta" id="imieinazwiskanakarcie">
+</label>
+
+<label for="datakarty">
+<p><h3>Data ważnosci karty</h3></p>
+<input type="date">
+</label>
+
+<label for="CCV">
+    <p><h3>CCV</h3></p>
+    <input type="number" name="number" id="CCV">
+</label>
+
+<label for="nrkarty">
+<p><h3>Numer karty Kredytowej</h3></p>
+<input type="number" name="nrkarty" id="nrkarty">
+
+</label>
+
+
+<div>
+    <button>Wyślij Formularz</button>
+</div>
 
 </form>
 </body>
